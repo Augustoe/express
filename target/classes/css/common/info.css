@@ -1,0 +1,159 @@
+.info-row{
+    width:94%;
+    margin: 0 auto;
+    padding-top: 32px;
+}
+
+.short-row{
+    float: left;
+    margin-left: 38px;
+    width: 200px;
+    position: relative;
+}
+
+.imgObj{
+   	width:200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.short-row p {
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.short-row input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.long-row{
+    margin-left: 250px;
+}
+
+.info-input{
+    width:80%;
+}
+
+.border-btn {
+    float: right;
+    margin-right: 31px;
+    margin-left: auto;
+}
+
+.safe-row{
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+
+.account-security .item {
+    border-bottom: 1px solid #e6e6e6;
+    position: relative;
+    padding: 30px 0;
+    width:92%;
+    margin: 0 auto 0 45px;
+}
+
+.account-security .item .reg-m {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -16px;
+}
+
+.uqer-ic.lock {
+    background-position: 0 0;
+}
+.uqer-ic.mobile {
+    background-position: 0 -32px;
+}
+.uqer-ic.email {
+    background-position: 0 -64px;
+}
+.uqer-ic.wechat {
+    background-position: 0 -96px;
+}
+
+.uqer-ic {
+    background: url(../img/common/info_icon.png);
+    display: inline-block;
+    vertical-align: middle;
+    width: 32px;
+    height: 32px;
+}
+
+.account-security .item .mid {
+    padding: 0 110px 0 45px;
+}
+
+.account-security .item .mid div {
+    font-weight: bold;
+}
+.account-security .item .mid span.t {
+    margin-right: 15px;
+}
+
+.account-security .item .mid p {
+    margin: 0 auto;
+    font-size: 12px;
+    color: #adadad;
+    line-height: 20px;
+}
+
+.account-security .item .border-btn {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -16px;
+}
+
+span.n {
+    font-size: 16px;
+    color: #555555;
+    display: inline-block;
+    text-align: left;
+    width: 110px;
+    margin-left: 40px;
+    margin-right:0px
+}
+span.n.long-n{
+    width: 170px;
+}
+
+.reg-input {
+    border: 1px solid #d3d3d3;
+    height: 28px;
+    border-radius: 4px;
+    text-indent: 12px;
+    width: 40%;
+    font-size: 14px;
+    background: none;
+    margin-left: -55px;
+}
+
+
+.errorMsg {
+    float: left;
+    height: 28px;
+    margin:10px 30px 1px 77px;
+    color: #ff6767;
+    /*display: none;*/
+}
+
+.modify-psw-row{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}

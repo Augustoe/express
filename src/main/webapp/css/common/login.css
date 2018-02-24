@@ -1,0 +1,175 @@
+body {
+    background-color: #F9F9F9;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.main-content{
+    position: relative;
+    background-color: #F9F9F9;
+    height: 93%;
+}
+
+#logReg{
+    width:350px;
+    margin: 155px auto 20px;
+}
+
+
+
+#logReg * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logReg .top-wrapper {
+    text-align: center;
+}
+
+#logReg .top-wrapper p {
+    margin: 15px auto;
+    color: #555555;
+    font-size: 16px;
+}
+
+#logReg .switch-wrapper {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+#logReg .switch-wrapper a {
+    color: #4e4e4e;
+    text-decoration: none;
+    display: inline-block;
+    height: 30px;
+    line-height: 20px;
+    margin-right: 35px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+#logReg .switch-wrapper a.active {
+    border-bottom: 2px solid #5389d2;
+    color: #5389d2;
+}
+
+#logReg .switch-wrapper #register{
+    margin-right: 5px;
+}
+
+#logReg .logReg-content {
+    width: 350px;
+    margin: 0 auto;
+}
+
+#logReg .login-wrapper .input-wrapper,#logReg .register-wrapper .input-wrapper {
+    margin-top: 25px;
+    position: relative;
+}
+
+#logReg .register-wrapper .input-wrapper input[type=text], #logReg .login-wrapper .input-wrapper input[type=text],
+#logReg .register-wrapper .input-wrapper input[type=number], #logReg .login-wrapper .input-wrapper input[type=number],
+#logReg  .register-wrapper .input-wrapper input[type=password], #logReg  .login-wrapper .input-wrapper input[type=password],
+#logReg .register-wrapper .input-wrapper input[type=email], #logReg  .login-wrapper .input-wrapper input[type=email] {
+    border: 1px solid #d3d3d3;
+    height: 49px;
+    line-height: 49px;
+    border-radius: 4px;
+    width: 100%;
+    outline: none;
+    font-size: 14px;
+    color: #000;
+    padding-left: 15px;
+}
+
+#logReg .register-wrapper .input-wrapper input[type=text]:focus, #logReg .login-wrapper .input-wrapper input[type=text]:focus,
+#logReg .register-wrapper .input-wrapper input[type=number]:focus, #logReg .login-wrapper .input-wrapper input[type=number]:focus,
+#logReg  .register-wrapper .input-wrapper input[type=password]:focus, #logReg  .login-wrapper .input-wrapper input[type=password]:focus,
+#logReg .register-wrapper .input-wrapper input[type=email]:focus, #logReg  .login-wrapper .input-wrapper input[type=email]:focus{
+    border: 1px solid #5389d2;
+}
+
+
+
+#logReg .register-wrapper input.btn-block, #logReg .login-wrapper input.btn-block, #logReg .register-wrapper a.btn-block, #logReg .login-wrapper a.btn-block {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    background: #5288d7;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    box-shadow: none;
+    margin-top: 25px;
+}
+
+#logReg .login-wrapper .input-wrapper input[type=password]~a.tip {
+    position: absolute;
+    font-size: 14px;
+    color: #5389d2;
+    right: 15px;
+    top: 0;
+    text-decoration: none;
+}
+
+#logReg .login-wrapper a.tip {
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    color: #5288d7;
+    text-align: right;
+}
+
+#logReg .clearfix-wrapper .errorField {
+    color: #ff6767;
+    float: left;
+    line-height: 46px;
+    padding-left: 30px;
+    background: url(../img/common/icon-warn.png) no-repeat 10px center / 16px;
+}
+
+#logReg .clearfix-wrapper .checkbox-wrapper {
+    float: right;
+    height: 45px;
+    line-height: 45px;
+    overflow: hidden;
+    font-size: 14px;
+    margin-top: 0;
+    margin-right: 15px;
+}
+#logReg .clearfix-wrapper .checkbox-wrapper p{
+    color:#555555;
+}
+#logReg .clearfix-wrapper .checkbox-wrapper p a{
+    color: #5389d2;
+}
+
+#logReg .clearfix-wrapper .checkbox-wrapper p a:hover{
+    color: #78a4d7;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+input.none {
+    position: absolute;
+    z-index: -1;
+}
+
+.login{
+    display: block;
+}
+
+.register{
+    display: none;
+}
+
